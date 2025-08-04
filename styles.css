@@ -205,6 +205,15 @@ nav ul:last-of-type li img {
 .contact-form button:hover {
     background: #ffa500;
 }
+.footer {
+    background: #222;
+    color: #ffb347;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 1rem;
+    margin-top: 32px;
+    border-top: 1px solid #ffb347;
+}
 @media (max-width: 900px) {
     .home {
         flex-direction: column;
@@ -244,6 +253,10 @@ nav ul:last-of-type li img {
         flex-direction: column;
         gap: 12px;
         margin-bottom: 8px;
+    }
+    nav ul:last-of-type,
+    nav ul:first-of-type {
+        display: none;
     }
     .home {
         flex-direction: column;
